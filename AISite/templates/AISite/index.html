@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'AISite/index.css' %}">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <h1>create amazing ...</h1>
+        <div id="line"></div>
+    </div>
+    <nav id="navbar">
+        <div>
+            <div class="logo">
+                <img src="{% static 'AISite/logo.png' %}" alt="logo">
+            </div>
+            <ul>
+                <li class="item"><a href="#">Home</a></li>
+                <li class="item"><a href="#">Services</a></li>
+                <li class="item"><a href="#">About Us</a></li>
+                <li class="item"><a href="#">Contact Us</a></li>
+                <a class="sign item" href="{% url 'SignIn_Page' %}"><button>Login</button></a>
+                <a class="signup item" href="{% url 'SignUp_Page' %}"><button>signup</button></a>
+            </ul>
+        </div>
+    </nav>
+    <div class="blog">
+        <h4>Meet Jasper</h4>
+        <h1>THE FUTURE OF WRITING</h1>
+        <h1 id="gradient">HELLO</h1>
+    </div>
+</body>
+
+</html>

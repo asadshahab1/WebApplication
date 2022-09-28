@@ -1,0 +1,96 @@
+* {
+    color: white;
+    /* padding: auto; */
+}
+
+body {
+    /* margin: 0;
+    padding: 0; */
+    background-color: black;
+}
+
+.top {
+    /* margin: 1px; */
+    /* padding: 0; */
+    /* height: 20 vh; */
+    /* width: 100vw; */
+    /* background-color: green; */
+    /* color: white; */
+    text-align: center;
+    /* position: relative; */
+}
+
+#line {
+    background-color: rgb(238, 255, 0);
+    height: 2px;
+    width: 100%;
+}
+
+#navbar {
+    font-size: 1.7rem;
+    align-items: center;
+    position: relative;
+    display: flex;
+    padding: 2rem 0rem;
+    position: relative;
+}
+
+.item {
+    display: inline-block;
+    size: 3rem;
+}
+
+.logo img {
+    height: 5rem;
+    border-radius: 3em;
+}
+
+.item a {
+    display: flex;
+    text-decoration: none;
+    padding: 0rem 8rem;
+}
+
+.sign button {
+    height: 1.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#navbar ul {
+    position: absolute;
+    top: 2rem;
+    display:inline-block;
+}
+
+#navbar ul a {
+    padding: 0.5rem 5rem;
+}
+
+.signup button {
+    padding: 0.7rem 0.9rem;
+    background-color: rgb(21, 21, 137);
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+.blog{
+    text-align: center;
+    padding: 11rem;
+    position:relative;
+}
+.signup button:hover{
+    background-color: rgb(179, 179, 243);
+}
+.sign button:hover{
+    color: blue;
+}
+@media (max-width:900px){
+    #navbar ul{
+        background-color: rgba(37, 5, 67, 0.909);
+        padding: 0rem 2rem;
+        display:inline-block;
+        z-index: -1;
+        opacity: 0.9;
+    }
+}

@@ -1,0 +1,36 @@
+body{
+    color: white;
+    margin:0;
+    padding:0;
+    background-color: black;
+    }
+    .main{
+        text-align: center;
+        position: relative;
+        top:4rem;
+    }
+    .form-group input {
+    text-align: center;
+    display: block;
+    width: 15vw;
+    padding: 1rem;
+    border: 1rem solid black;
+    margin: 1rem auto;
+    font-size: 1rem;
+    border-radius: 1rem;
+    }
+    .form-group input:hover{
+        background-color:blue;
+        width: 18vw;
+        padding: 2rem;
+        box-shadow: 1rem 1rem 1rem 1rem green;
+    }
+    .signup button {
+        color: white;
+        padding: 0.7rem 0.9rem;
+        background-color: rgb(21, 21, 137);
+        border-radius: 0.4rem;
+    }
+    .signup button:hover{
+        background-color: blue;
+    }
